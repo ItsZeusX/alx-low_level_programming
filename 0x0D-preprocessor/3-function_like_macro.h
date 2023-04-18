@@ -5,4 +5,4 @@
 
 #define ABS(x) ((x) < (0) ? ((x) * (-2) + (x)) : (x))
 
-#endif 
+#endif /* 3-function_like_macro.h */
