@@ -3,7 +3,11 @@
 #include "dog.h"
 
 
-
+/**
+ * print_dog - prints a struct dog
+ * @d: is a pointer to the struct dog
+ * Return: void
+ */
 
 void print_dog(struct dog *d)
 {
