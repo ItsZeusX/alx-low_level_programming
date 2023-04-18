@@ -2,7 +2,12 @@
 #include <stdlib.h>
 #include "dog.h"
 
-
+/**
+ * _strcpy - copies a string
+ * @dest: the destination to be copied to
+ * @src: the source to copy from
+ * Return: the pointer to dest
+ */
 
 char *_strcpy(char *dest, char *src)
 {
@@ -23,7 +28,11 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-
+/**
+ * _strlen - returns the length of a string
+ * @s: the string to be checked for it's length
+ * Return: returns the length of s.
+ */
 
 int _strlen(char *s)
 {
@@ -37,7 +46,13 @@ int _strlen(char *s)
 	return (len);
 }
 
-
+/**
+ * new_dog - creates a new dog.
+ * @name: is the name of the dog
+ * @age: is the age of the dog
+ * @owner: is the owner of the dog
+ * Return: a pointer to the new dog else NULL
+ */
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
